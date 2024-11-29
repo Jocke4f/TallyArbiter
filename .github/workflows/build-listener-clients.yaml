@@ -23,7 +23,7 @@ jobs:
           - name: esp32:esp32
             source-url: https://dl.espressif.com/dl/package_esp32_index.json
         name: "M5StickC"
-        fqbn: 'esp32:esp32:m5stick-c'
+        fqbn: 'm5stack:esp32:stickc'
         platform-url: https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json
         extra_flags: "-DSTICK_C"
         libraries: |
