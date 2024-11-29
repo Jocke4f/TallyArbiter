@@ -26,6 +26,7 @@ jobs:
         libraries: |
           - source-url: https://github.com/m5stack/M5StickC/archive/refs/tags/0.3.0.zip
           - source-url: https://github.com/m5stack/M5StickC-Plus/archive/refs/tags/0.1.0.zip
+          - source-url: https://github.com/m5stack/M5StickCPlus2/archive/refs/tags/1.0.1.zip
           - name: WebSockets
           - name: WiFiManager
           - name: MultiButton
@@ -39,7 +40,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: 'TallyArbiter-Listener-M5StickC'
-        path: 'listener_clients/m5stickc-listener/build/esp32.esp32.m5stick-c'
+        path: 'listener_clients/m5stickc-listener/build/m5stack.esp32.m5stack_stickc'
 
   build_m5atom-listener:
     name: Build M5Atom Listener
