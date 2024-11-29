@@ -22,7 +22,7 @@ jobs:
         platforms: |
           - name: m5stack:esp32
             source-url: https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json
-        fqbn: 'm5stack:esp32:m5stack_stickc_plus'
+        fqbn: 'm5stack:esp32:stickc'
         libraries: |
           - source-url: https://github.com/m5stack/M5StickC/archive/refs/tags/0.3.0.zip
           - source-url: https://github.com/m5stack/M5StickC-Plus/archive/refs/tags/0.1.0.zip
