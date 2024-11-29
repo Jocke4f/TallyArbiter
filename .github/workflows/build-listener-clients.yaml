@@ -17,12 +17,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: arduino/compile-sketches@v1
+    - uses: arduino/compile-sketches@v1.1.4
       with:
         platforms: |
           - name: esp32:esp32
             source-url: https://dl.espressif.com/dl/package_esp32_index.json
-        fqbn: 'm5stack:esp32:stickc'
+        fqbn: 'esp32:esp32:m5stick-c'
         libraries: |
           - source-url: https://github.com/m5stack/M5StickC/archive/refs/tags/0.3.0.zip
           - source-url: https://github.com/m5stack/M5StickC-Plus/archive/refs/tags/0.1.0.zip
