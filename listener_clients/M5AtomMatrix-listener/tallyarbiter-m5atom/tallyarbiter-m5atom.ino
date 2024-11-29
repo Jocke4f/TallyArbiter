@@ -85,7 +85,7 @@ String prevType = ""; // reduce display flicker by storing previous state
 String actualType = "";
 String actualColor = "";
 int actualPriority = 0;
-long colorNumber = 0;
+//long colorNumber = 0;
 
 // default color values
 int RGB_COLOR_WHITE = 0xffffff;
@@ -351,7 +351,7 @@ void evaluateMode() {
     //M5.dis.clear();
     actualColor.replace("#", "");
     String hexstring = actualColor;
-    long colorNumber = (long) strtol( &hexstring[1], NULL, 16);
+    //long colorNumber = (long) strtol( &hexstring[1], NULL, 16);
  // This order is to compensate for Matrix needing grb.
     int r = strtol(hexstring.substring(3, 5).c_str(), NULL, 16);
     int g = strtol(hexstring.substring(1, 3).c_str(), NULL, 16);
