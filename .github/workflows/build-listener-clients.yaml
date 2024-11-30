@@ -39,8 +39,8 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: 'TallyArbiter-Listener-M5StickC'
-        path: 'listener_clients/m5stickc-listener/build/m5stack.esp32.m5stack_stickc'
+        name: 'TallyArbiter-Listener-M5StickC-Plus'
+        path: 'listener_clients/m5stickc-listener/build/m5stack.esp32.m5stack_stickc_plus'
 
   build_m5atom-listener:
     name: Build M5Atom Listener
