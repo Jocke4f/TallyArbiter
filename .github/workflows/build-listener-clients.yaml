@@ -22,7 +22,7 @@ jobs:
         platforms: |
           - name: m5stack:esp32
             source-url: https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json
-        fqbn: 'm5stack:esp32:m5stack_stickc_plus'
+        fqbn: 'm5stack:esp32:m5stack_stickc'
         libraries: |
           - source-url: https://github.com/m5stack/M5StickC/archive/refs/tags/0.3.0.zip
           - source-url: https://github.com/m5stack/M5StickC-Plus/archive/refs/tags/0.1.0.zip
@@ -40,7 +40,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: 'TallyArbiter-Listener-M5StickC'
-        path: 'listener_clients/m5stickc-listener/build/m5stack.esp32.m5stack_stickc_plus'
+        path: 'listener_clients/m5stickc-listener/build/m5stack.esp32.m5stack_stickc'
 
   build_m5atom-listener:
     name: Build M5Atom Listener
