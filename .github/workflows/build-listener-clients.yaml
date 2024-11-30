@@ -25,8 +25,6 @@ jobs:
         fqbn: 'm5stack:esp32:m5stack_stickc'
         libraries: |
           - source-url: https://github.com/m5stack/M5StickC/archive/refs/tags/0.3.0.zip
-          - source-url: https://github.com/m5stack/M5StickC-Plus/archive/refs/tags/0.1.0.zip
-          - source-url: https://github.com/m5stack/M5StickCPlus2/archive/refs/tags/1.0.1.zip
           - name: WebSockets
           - name: WiFiManager
           - name: MultiButton
