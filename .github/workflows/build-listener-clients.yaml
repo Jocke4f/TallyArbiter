@@ -40,7 +40,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: 'TallyArbiter-Listener-M5StickC'
-        path: 'listener_clients/m5stickc-listener/build/m5stack:esp32:m5stack_stickc_plus'
+        path: 'listener_clients/m5stickc-listener/build/m5stack.esp32.m5stack_stickc_plus'
 
   build_m5atom-listener:
     name: Build M5Atom Listener
@@ -69,7 +69,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: 'TallyArbiter-Listener-M5Atom'
-        path: 'listener_clients/M5AtomMatrix-listener/tallyarbiter-m5atom/build/m5stack.esp32.atom'
+        path: 'listener_clients/M5AtomMatrix-listener/tallyarbiter-m5atom/build/m5stack.esp32.m5stack_atom'
 
   build_esp32-neopixel-listener:
     name: Build ESP32 NeoPixel Listener
